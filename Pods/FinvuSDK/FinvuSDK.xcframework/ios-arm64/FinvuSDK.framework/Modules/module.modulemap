@@ -1,0 +1,11 @@
+framework module FinvuSDK {
+  umbrella header "FinvuSDK.common-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module FinvuSDK.Swift {
+  header "FinvuSDK-Swift.h"
+  requires objc
+}

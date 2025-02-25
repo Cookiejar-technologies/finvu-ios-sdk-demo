@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8EE3C7E1652962985E469DD24C8B89B0 /* FinvuSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 040B33E90D57773235AB9272DE74DF5B /* Build configuration list for PBXAggregateTarget "FinvuSDK" */;
+			buildPhases = (
+				22FA261785F0B91821BB89ACCB6542C1 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = FinvuSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		042DFBD3FE16564C4169FB974FF8ED42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		58E37B3F644DBBF124135FA9EA2C9CD7 /* Pods-FinvuiOSClientDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28B69562D8D01D6BC0888D4CAFFB9B /* Pods-FinvuiOSClientDemo-dummy.m */; };
+		8ABF7BE7C8725D543FBC46B0F0E36F9A /* Pods-FinvuiOSClientDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B65F738793461D7B574B0D48B58B35 /* Pods-FinvuiOSClientDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7582125F63594F7C36752F6A5AD2F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EE3C7E1652962985E469DD24C8B89B0;
+			remoteInfo = FinvuSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C1AFFBDE4785430950081E4ED6DC776 /* Pods-FinvuiOSClientDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FinvuiOSClientDemo"; path = Pods_FinvuiOSClientDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CE8C174061D5F6E59B100058A768CE /* Starscream.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Starscream.xcframework; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F54762F6074D2984839174CF59BFBC1 /* TrustKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = TrustKit.xcframework; sourceTree = "<group>"; };
+		68CDE5122C37E2002E4131258135C42C /* Pods-FinvuiOSClientDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinvuiOSClientDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E94BAFF935A4632398A3185A99D50F6 /* FinvuSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FinvuSDK.release.xcconfig; sourceTree = "<group>"; };
+		7370D1BEA54ABB2FC7221EFC3E0B7D5E /* FinvuSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FinvuSDK.debug.xcconfig; sourceTree = "<group>"; };
+		8490410B47D2204BA01D38109CDF2F21 /* FinvuSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FinvuSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		9D5F6E118556E8093E118BEE8FFB9CB1 /* Pods-FinvuiOSClientDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinvuiOSClientDemo-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A265204FF8BA6C15DADB4F30A8CC0103 /* FinvuSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = FinvuSDK.xcframework; sourceTree = "<group>"; };
+		AB28B69562D8D01D6BC0888D4CAFFB9B /* Pods-FinvuiOSClientDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FinvuiOSClientDemo-dummy.m"; sourceTree = "<group>"; };
+		B0B65F738793461D7B574B0D48B58B35 /* Pods-FinvuiOSClientDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FinvuiOSClientDemo-umbrella.h"; sourceTree = "<group>"; };
+		BA92002AE3A8758F5EBB0D26FADAD16C /* Pods-FinvuiOSClientDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FinvuiOSClientDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC7E9455167BB8F728F0A0C72AFC7C38 /* Pods-FinvuiOSClientDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinvuiOSClientDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D471F666B2EC8183E4DB006A32BE4279 /* Pods-FinvuiOSClientDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FinvuiOSClientDemo-frameworks.sh"; sourceTree = "<group>"; };
+		F7B4E3140ED4E0A2CEFEDAF70B3AD2E7 /* Pods-FinvuiOSClientDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinvuiOSClientDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FEF91FBBDC04ECDFBD294C66FC8D4F64 /* Pods-FinvuiOSClientDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FinvuiOSClientDemo.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4C89B495ABA1A310933BC6AB3B8E845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042DFBD3FE16564C4169FB974FF8ED42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20026B892D1B4DE58C41FC7952B05FB9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8490410B47D2204BA01D38109CDF2F21 /* FinvuSDK-xcframeworks.sh */,
+				7370D1BEA54ABB2FC7221EFC3E0B7D5E /* FinvuSDK.debug.xcconfig */,
+				6E94BAFF935A4632398A3185A99D50F6 /* FinvuSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FinvuSDK";
+			sourceTree = "<group>";
+		};
+		23B5D0904C4F6D8FEA594329401C928A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E45701EC0C02E3DAFD6A9AE572C67C1F /* FinvuSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		48053A385679B14C0592481B441493D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A265204FF8BA6C15DADB4F30A8CC0103 /* FinvuSDK.xcframework */,
+				36CE8C174061D5F6E59B100058A768CE /* Starscream.xcframework */,
+				3F54762F6074D2984839174CF59BFBC1 /* TrustKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86BFCEDED0978EB9CB670400590566C6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F591D1ED09F38A25864303A38B463511 /* Pods-FinvuiOSClientDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CCC4C642B131D821F95E15E73867A096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C1AFFBDE4785430950081E4ED6DC776 /* Pods-FinvuiOSClientDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				23B5D0904C4F6D8FEA594329401C928A /* Pods */,
+				CCC4C642B131D821F95E15E73867A096 /* Products */,
+				86BFCEDED0978EB9CB670400590566C6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E45701EC0C02E3DAFD6A9AE572C67C1F /* FinvuSDK */ = {
+			isa = PBXGroup;
+			children = (
+				48053A385679B14C0592481B441493D8 /* Frameworks */,
+				20026B892D1B4DE58C41FC7952B05FB9 /* Support Files */,
+			);
+			name = FinvuSDK;
+			path = FinvuSDK;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F591D1ED09F38A25864303A38B463511 /* Pods-FinvuiOSClientDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FEF91FBBDC04ECDFBD294C66FC8D4F64 /* Pods-FinvuiOSClientDemo.modulemap */,
+				BA92002AE3A8758F5EBB0D26FADAD16C /* Pods-FinvuiOSClientDemo-acknowledgements.markdown */,
+				68CDE5122C37E2002E4131258135C42C /* Pods-FinvuiOSClientDemo-acknowledgements.plist */,
+				AB28B69562D8D01D6BC0888D4CAFFB9B /* Pods-FinvuiOSClientDemo-dummy.m */,
+				D471F666B2EC8183E4DB006A32BE4279 /* Pods-FinvuiOSClientDemo-frameworks.sh */,
+				9D5F6E118556E8093E118BEE8FFB9CB1 /* Pods-FinvuiOSClientDemo-Info.plist */,
+				B0B65F738793461D7B574B0D48B58B35 /* Pods-FinvuiOSClientDemo-umbrella.h */,
+				F7B4E3140ED4E0A2CEFEDAF70B3AD2E7 /* Pods-FinvuiOSClientDemo.debug.xcconfig */,
+				CC7E9455167BB8F728F0A0C72AFC7C38 /* Pods-FinvuiOSClientDemo.release.xcconfig */,
+			);
+			name = "Pods-FinvuiOSClientDemo";
+			path = "Target Support Files/Pods-FinvuiOSClientDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D14FF3219113F2CA0E87741CC9EC0EDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABF7BE7C8725D543FBC46B0F0E36F9A /* Pods-FinvuiOSClientDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B4D2BE922F60F7D05E8E41DE66373753 /* Pods-FinvuiOSClientDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345FCE14A12D4568BE754F32B8908A92 /* Build configuration list for PBXNativeTarget "Pods-FinvuiOSClientDemo" */;
+			buildPhases = (
+				D14FF3219113F2CA0E87741CC9EC0EDB /* Headers */,
+				5F38F55526FC92524FC3B3AA0399AF9D /* Sources */,
+				F4C89B495ABA1A310933BC6AB3B8E845 /* Frameworks */,
+				584EA629ECFEFBA9810F6875E42DAD87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				544711EDFB90334BCAAE3DC83CE5910A /* PBXTargetDependency */,
+			);
+			name = "Pods-FinvuiOSClientDemo";
+			productName = Pods_FinvuiOSClientDemo;
+			productReference = 0C1AFFBDE4785430950081E4ED6DC776 /* Pods-FinvuiOSClientDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CCC4C642B131D821F95E15E73867A096 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EE3C7E1652962985E469DD24C8B89B0 /* FinvuSDK */,
+				B4D2BE922F60F7D05E8E41DE66373753 /* Pods-FinvuiOSClientDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		584EA629ECFEFBA9810F6875E42DAD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22FA261785F0B91821BB89ACCB6542C1 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FinvuSDK/FinvuSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FinvuSDK/FinvuSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FinvuSDK/FinvuSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F38F55526FC92524FC3B3AA0399AF9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E37B3F644DBBF124135FA9EA2C9CD7 /* Pods-FinvuiOSClientDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		544711EDFB90334BCAAE3DC83CE5910A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FinvuSDK;
+			target = 8EE3C7E1652962985E469DD24C8B89B0 /* FinvuSDK */;
+			targetProxy = B7582125F63594F7C36752F6A5AD2F0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6F4225877C794ABEB78776F47754104E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9450E13752002EE4AB2EDB27D1DDE89C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7B4E3140ED4E0A2CEFEDAF70B3AD2E7 /* Pods-FinvuiOSClientDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-FinvuiOSClientDemo/Pods-FinvuiOSClientDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FinvuiOSClientDemo/Pods-FinvuiOSClientDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		978D7BE59078B7EE22B2016422082999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC7E9455167BB8F728F0A0C72AFC7C38 /* Pods-FinvuiOSClientDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-FinvuiOSClientDemo/Pods-FinvuiOSClientDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FinvuiOSClientDemo/Pods-FinvuiOSClientDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B67F18072034223C5EA368456763B0E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7370D1BEA54ABB2FC7221EFC3E0B7D5E /* FinvuSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE3A461AAE4A9D5C3EAB1EF24C53A15C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E94BAFF935A4632398A3185A99D50F6 /* FinvuSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040B33E90D57773235AB9272DE74DF5B /* Build configuration list for PBXAggregateTarget "FinvuSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B67F18072034223C5EA368456763B0E0 /* Debug */,
+				DE3A461AAE4A9D5C3EAB1EF24C53A15C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345FCE14A12D4568BE754F32B8908A92 /* Build configuration list for PBXNativeTarget "Pods-FinvuiOSClientDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9450E13752002EE4AB2EDB27D1DDE89C /* Debug */,
+				978D7BE59078B7EE22B2016422082999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */,
+				6F4225877C794ABEB78776F47754104E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
