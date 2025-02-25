@@ -1,4 +1,0 @@
-${PODS_ROOT}/Target Support Files/Pods-FinvuiOSClientDemo/Pods-FinvuiOSClientDemo-frameworks.sh
-${PODS_XCFRAMEWORKS_BUILD_DIR}/FinvuSDK/FinvuSDK.framework/FinvuSDK
-${PODS_XCFRAMEWORKS_BUILD_DIR}/FinvuSDK/Starscream.framework/Starscream
-${PODS_XCFRAMEWORKS_BUILD_DIR}/FinvuSDK/TrustKit.framework/TrustKit

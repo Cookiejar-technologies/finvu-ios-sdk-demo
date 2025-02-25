@@ -1,4 +1,0 @@
-${PODS_ROOT}/Target Support Files/FinvuSDK/FinvuSDK-xcframeworks.sh
-${PODS_ROOT}/FinvuSDK/FinvuSDK.xcframework
-${PODS_ROOT}/FinvuSDK/Starscream.xcframework
-${PODS_ROOT}/FinvuSDK/TrustKit.xcframework

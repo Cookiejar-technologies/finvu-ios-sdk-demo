@@ -1,0 +1,45 @@
+# Xcode
+*.xcuserstate
+*.xcuserdatad
+*.xcodeproj
+*.xcuserdata
+*.xcscheme
+*.xcschemes
+
+# Build products
+build/
+DerivedData/
+*.app
+*.ipa
+*.dSYM
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# User-specific files
+*.swp
+*.swo
+*.DS_Store
+*.user
+*.userprefs
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Other
+*.plist
+*.hmap
+*.h
+*.swiftmodule
+*.swiftinterface
+*.swiftdeps
+*.abi.json

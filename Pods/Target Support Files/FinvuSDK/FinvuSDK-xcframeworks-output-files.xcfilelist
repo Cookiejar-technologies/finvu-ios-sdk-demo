@@ -1,3 +1,0 @@
-${PODS_XCFRAMEWORKS_BUILD_DIR}/FinvuSDK/FinvuSDK.framework
-${PODS_XCFRAMEWORKS_BUILD_DIR}/FinvuSDK/Starscream.framework
-${PODS_XCFRAMEWORKS_BUILD_DIR}/FinvuSDK/TrustKit.framework
