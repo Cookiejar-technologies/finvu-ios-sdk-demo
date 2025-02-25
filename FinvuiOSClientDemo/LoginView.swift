@@ -6,8 +6,8 @@ struct LoginView: View {
     let finvuClientConfig: FinvuClientConfig
     
     // State variables
-    @State private var username: String = "yashwantg@finvu"
-    @State private var mobileNumber: String = "8459177562"
+    @State private var username: String = ""
+    @State private var mobileNumber: String = ""
     @State private var consentHandleId: String = ""
     @State private var otp: String = ""
     @State private var showOtpField: Bool = false
@@ -18,9 +18,9 @@ struct LoginView: View {
     
     // Constants
     static let consentHandleIds = [
-            "e5dbe1e5-d77a-4646-bb6c-2f60fd2c326f",
-            "765d488a-8834-42ec-88c0-b236bf3c4aa2",
-            "fe8ae48b-ef52-407e-adcf-78583bfe9462"
+            "2ff8f5cd-5799-4195-a8ab-96688185d210",
+            "765d488a-8834-42ec-88c0-b236bf3c4aa1",
+            "fe8ae48b-ef52-407e-adcf-78583bfe9463"
     ]
     
     init() {
