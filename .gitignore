@@ -1,10 +1,7 @@
-# Xcode
+# Xcode user-specific files
 *.xcuserstate
 *.xcuserdatad
-*.xcodeproj
 *.xcuserdata
-*.xcscheme
-*.xcschemes
 
 # Build products
 build/
@@ -19,7 +16,9 @@ Podfile.lock
 
 # Swift Package Manager
 .build/
-Package.resolved
+
+# Keep Package.resolved to lock SPM versions
+# !Package.resolved
 
 # User-specific files
 *.swp
@@ -35,10 +34,7 @@ Package.resolved
 *.tmp
 *.temp
 
-# Other
-*.plist
-*.hmap
-*.h
+# Ignored module-related outputs
 *.swiftmodule
 *.swiftinterface
 *.swiftdeps
