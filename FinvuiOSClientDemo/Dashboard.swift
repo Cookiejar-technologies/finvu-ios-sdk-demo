@@ -15,8 +15,21 @@ struct Dashboard: View {
     
     init(linkedAccountsResponse: LinkedAccountsResponse? = nil) {
             self.linkedAccountsResponse = linkedAccountsResponse
-    }
+    };
     
+   private func revokeConsent() {
+        finvuManager.revokeConsent(consentId: "" , accountAggregator: nil, fipDetails: nil ) {error in
+            DispatchQueue.main.async {
+                if let error = error {
+                    print(error.localizedDescription);
+                    return
+                }
+                
+                print("successfully revoked consent")
+               
+            }
+        }
+    }
     var body: some View {
         ScrollView {
             VStack(spacing: 16) {
@@ -64,6 +77,11 @@ struct Dashboard: View {
                         .frame(maxWidth: .infinity)
                 }
                 .buttonStyle(.bordered)
+                
+                Button("Revoke Consent") {
+                    revokeConsent()
+                }
+                .buttonStyle(.borderedProminent)
             }
             .padding(16)
         }

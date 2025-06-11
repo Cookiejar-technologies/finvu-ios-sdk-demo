@@ -18,9 +18,7 @@ struct LoginView: View {
     
     // Constants
     static let consentHandleIds = [
-            "2ff8f5cd-5799-4195-a8ab-96688185d210",
-            "765d488a-8834-42ec-88c0-b236bf3c4aa1",
-            "fe8ae48b-ef52-407e-adcf-78583bfe9463"
+            ""
     ]
     
     init() {
@@ -28,8 +26,6 @@ struct LoginView: View {
         finvuClientConfig = FinvuClientConfig(
             finvuEndpoint: finvuUrl,
             certificatePins: [
-                "R6wXZnQsKKyg56qFKQNytvygyr/o4Mkq1VXL5LenBYI=",
-                "bdrBhpj38ffhxpubzkINl0rG+UyossdhcBYj+Zx2fcc="
             ]
         )
         // Initialize consentHandleId with first item
